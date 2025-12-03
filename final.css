@@ -1,0 +1,82 @@
+body {
+  background-color: #966b6b;
+  margin-bottom: 50px;  /* إضافة المسافة في أسفل الصفحة */
+}
+
+h1, h5, h6 {
+  color: rgb(110, 38, 38);
+}
+
+h5, h6 { 
+  background: #896464; 
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px; 
+  min-height: 40px; 
+  display: block; 
+  width: fit-content;
+  text-align: center;
+}
+
+p, a { 
+  color: #7e1616;
+  background: #896464; 
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  min-height: 40px; 
+  display: block; 
+  width: fit-content; 
+  text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #ab7d7d !important;
+}
+
+.navbar .form-control {
+  color: #fff; 
+  background-color: #896464; 
+}
+
+.navbar .btn-outline-success {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* خلفية آراء العملاء */
+.customer-reviews {
+  background: linear-gradient(to right, rgba(150, 107, 107, 0.9), rgba(150, 107, 107, 0.7)); 
+  color: white; 
+  padding: 20px;  
+  border-radius: 8px;  
+  margin-bottom: 40px; 
+  text-align: center; 
+  position: relative;  /* تحديد ترتيب العناصر */
+  z-index: 10;  /* التأكد من أن النصوص تظهر فوق الصورة */
+}
+
+/* الصور المتحركة (carousel) */
+.w-100 {
+  width: 100%;  
+  object-fit: cover;  /* الحفاظ على الأبعاد */
+  max-height: 600px; 
+  position: relative;  /* تحديد وضعية الصورة */
+  z-index: 1; /* وضع الصورة خلف النصوص */
+}
+
+/* إضافة المسافة أسفل الصفحة */
+body {
+  margin-bottom: 50px; 
+}
+
+/* إضافة المسافات حول النصوص في الـ carousel */
+.carousel-caption {
+  position: relative;
+  z-index: 20;  /* التأكد من أن النصوص في الـ carousel تظهر فوق الصور */
+  color: white; /* تحسين قراءة النصوص فوق الصور */
+  text-align: center;
+}
+
+
