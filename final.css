@@ -1,82 +1,77 @@
+
 body {
-  background-color: #966b6b;
-  margin-bottom: 50px;  /* إضافة المسافة في أسفل الصفحة */
+  background-color: #f0f0f0;
+  color: #333; 
+  font-family: Arial, sans-serif;
 }
 
-h1, h5, h6 {
-  color: rgb(110, 38, 38);
+h1 {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-h5, h6 { 
-  background: #896464; 
+.form-label {
+  color: #555; 
+}
+
+.form-control {
+  background-color: #e0e0e0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   padding: 10px;
-  border-radius: 8px;
+  width: 100%;
   margin-bottom: 15px; 
-  min-height: 40px; 
-  display: block; 
-  width: fit-content;
-  text-align: center;
 }
 
-p, a { 
-  color: #7e1616;
-  background: #896464; 
-  padding: 10px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  min-height: 40px; 
-  display: block; 
-  width: fit-content; 
-  text-align: center;
+.form-control:focus {
+  border-color: #7e1616; 
+  background-color: #fff;
 }
 
-/* Navbar styling */
-.navbar {
-  background-color: #ab7d7d !important;
-}
-
-.navbar .form-control {
-  color: #fff; 
-  background-color: #896464; 
-}
-
-.navbar .btn-outline-success {
-  color: #fff;
-  border-color: #fff;
-}
-
-/* خلفية آراء العملاء */
-.customer-reviews {
-  background: linear-gradient(to right, rgba(150, 107, 107, 0.9), rgba(150, 107, 107, 0.7)); 
+.btn-primary {
+  background-color: #7e1616; 
+  border-color: #7e1616; 
   color: white; 
-  padding: 20px;  
-  border-radius: 8px;  
-  margin-bottom: 40px; 
-  text-align: center; 
-  position: relative;  /* تحديد ترتيب العناصر */
-  z-index: 10;  /* التأكد من أن النصوص تظهر فوق الصورة */
+  padding: 10px 20px;
+  border-radius: 5px; 
 }
 
-/* الصور المتحركة (carousel) */
-.w-100 {
-  width: 100%;  
-  object-fit: cover;  /* الحفاظ على الأبعاد */
-  max-height: 600px; 
-  position: relative;  /* تحديد وضعية الصورة */
-  z-index: 1; /* وضع الصورة خلف النصوص */
+.btn-primary:hover {
+  background-color: #9c2626; 
+  border-color: #9c2626;
 }
 
-/* إضافة المسافة أسفل الصفحة */
-body {
-  margin-bottom: 50px; 
+ 
+.btn-primary {
+  background-color: #7e1616; 
+  border-color: #7e1616; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 5px;
 }
 
-/* إضافة المسافات حول النصوص في الـ carousel */
-.carousel-caption {
-  position: relative;
-  z-index: 20;  /* التأكد من أن النصوص في الـ carousel تظهر فوق الصور */
-  color: white; /* تحسين قراءة النصوص فوق الصور */
-  text-align: center;
+.btn-secondary:hover {
+  background-color: #888; 
+  border-color: #888; 
+}
+
+.container {
+  padding: 30px; 
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
 }
 
 
+a {
+  text-decoration: none; 
+  color: #7e1616; 
+  font-weight: bold;
+}
+
+a:hover {
+  color: #9c2626;
+}

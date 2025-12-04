@@ -1,0 +1,135 @@
+/* إعادة تعيين بعض التنسيقات الأساسية للصفحة */
+body {
+  background-color: #f4f4f4; /* خلفية هادئة */
+  font-family: 'Arial', sans-serif; /* خط بسيط */
+  margin: 0;
+  padding: 0;
+}
+
+/* تنسيق الـ Navbar */
+.navbar {
+  background-color: #7e1616; /* خلفية حمراء */
+}
+
+.navbar .navbar-brand {
+  color: #7a2828; /* نص أبيض */
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #7a2828; /* روابط بيضاء */
+}
+
+.navbar .nav-link:hover {
+  color: #682318; /* تغيير اللون عند التمرير */
+}
+
+.navbar .form-control {
+  background-color: #7a2828;
+  border: 1px solid #ddd;
+}
+
+.navbar .btn-outline-success {
+  color: #7a2828;
+  border-color: #fff;
+}
+
+/* تنسيق العناوين */
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3c3c3c; /* لون نص داكن */
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: #7e1616; /* لون مميز للعناوين */
+  font-weight: bold;
+}
+
+/* تنسيق النصوص في الفقرات */
+p {
+  font-size: 1.2em;
+  color: #5a5a5a; /* لون نص مريح */
+  line-height: 1.6;
+  text-align: justify; /* محاذاة النصوص */
+}
+
+/* تنسيق الصور داخل الـ carousel */
+.w-100 {
+  width: 100%;
+  object-fit: cover; /* الحفاظ على نسبة الأبعاد */
+  max-height: 600px; /* تحديد أقصى ارتفاع للصور */
+}
+
+/* تنسيق الـ carousel */
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px; /* تحديد ارتفاع ثابت للصور */
+}
+
+/* تنسيق أزرار التنقل داخل الـ carousel */
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #7e1616; /* لون الأسهم */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* خلفية داكنة للنصوص */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* تنسيق الأزرار */
+button {
+  padding: 10px 20px;
+  background-color: #7e1616;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5c1212; /* تغيير لون الزر عند التمرير */
+}
+
+/* تنسيق الحاويات */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* تنسيق النصوص في الفقرة الختامية */
+.text-muted {
+  font-size: 1.2rem;
+  color: #9e9e9e;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* المسافة بين الفقرات */
+.mt-5 {
+  margin-top: 3rem;
+}
+
