@@ -1,0 +1,69 @@
+body {
+  background-color: #f0f0f0;
+  color: #333; 
+  font-family: Arial, sans-serif;
+}
+
+/* تنسيق الـ Navbar */
+.navbar {
+  background-color: #7e1616; /* خلفية حمراء */
+}
+
+.navbar .navbar-brand {
+  color: #7a2828; /* نص أبيض */
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #7a2828; /* روابط بيضاء */
+}
+
+.navbar .nav-link:hover {
+  color: #682318; /* تغيير اللون عند التمرير */
+}
+
+.navbar .form-control {
+  background-color: #7a2828;
+  border: 1px solid #ddd;
+}
+
+.navbar .btn-outline-success {
+  color: #7a2828;
+  border-color: #fff;
+}
+#contact {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  border-top: 1px solid #6a6565;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#contact .form-control {
+  border-radius: 8px;
+}
+
+#contact button {
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.contact-info {
+  background-color: #787a7d;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+}

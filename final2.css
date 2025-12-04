@@ -5,6 +5,33 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* تنسيق الـ Navbar */
+.navbar {
+  background-color: #7e1616; /* خلفية حمراء */
+}
+
+.navbar .navbar-brand {
+  color: #7a2828; /* نص أبيض */
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #7a2828; /* روابط بيضاء */
+}
+
+.navbar .nav-link:hover {
+  color: #682318; /* تغيير اللون عند التمرير */
+}
+
+.navbar .form-control {
+  background-color: #7a2828;
+  border: 1px solid #ddd;
+}
+
+.navbar .btn-outline-success {
+  color: #7a2828;
+  border-color: #fff;
+}
 
 h1 {
   color: #4e4e4e; 
